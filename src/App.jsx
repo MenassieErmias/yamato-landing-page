@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <div className='app bg-gradient-to-b from-[#1CA5B5] to-[#141C4B] text-gray-300 min-h-screen'>
-      <main className="main">
+      <main className="main flex flex-col items-center">
         <Header />
         <Hero />
         <Specialization />

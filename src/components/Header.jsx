@@ -7,13 +7,13 @@ const Header = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4'>
+    <div className='max-w-[1000px] fixed w-full h-[80px] flex justify-between items-center px-4  cursor-pointer'>
       <div>
         <img src={Logo} alt="Logo Image" style={{ width: '50px' }} />
       </div>
 
       {/* Menu */}
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex font-bold uppercase'>
         <li>Home</li>
         <li>Services</li>
         <li>Products</li>
@@ -26,7 +26,7 @@ const Header = () => {
         {nav ? <FaTimes /> : <FaBars />}
       </div>
       {/* Mobile Menu */}
-      <ul className={nav ? 'absolute top-0 left-0 w-full h-screen bg-[#141C4B] flex flex-col justify-center items-center' : 'hidden'}>
+      <ul className={nav ? 'absolute top-0 left-0 w-full h-screen bg-[#141C4B] flex flex-col justify-center items-center uppercase' : 'hidden'}>
         <li className='py-6 text-4xl'>Home</li>
         <li className='py-6 text-4xl'>Services</li>
         <li className='py-6 text-4xl'>Products</li>
