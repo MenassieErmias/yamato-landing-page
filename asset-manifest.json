@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/yamato-landing-page/static/css/main.044d36ca.css",
-    "main.js": "/yamato-landing-page/static/js/main.d0150bff.js",
+    "main.css": "/yamato-landing-page/static/css/main.afc0e452.css",
+    "main.js": "/yamato-landing-page/static/js/main.64e4c940.js",
     "static/media/logo.jpg": "/yamato-landing-page/static/media/logo.2ffae36113c09398906a.jpg",
     "index.html": "/yamato-landing-page/index.html",
-    "main.044d36ca.css.map": "/yamato-landing-page/static/css/main.044d36ca.css.map",
-    "main.d0150bff.js.map": "/yamato-landing-page/static/js/main.d0150bff.js.map"
+    "main.afc0e452.css.map": "/yamato-landing-page/static/css/main.afc0e452.css.map",
+    "main.64e4c940.js.map": "/yamato-landing-page/static/js/main.64e4c940.js.map"
   },
   "entrypoints": [
-    "static/css/main.044d36ca.css",
-    "static/js/main.d0150bff.js"
+    "static/css/main.afc0e452.css",
+    "static/js/main.64e4c940.js"
   ]
 }
